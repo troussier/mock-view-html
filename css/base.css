@@ -1,0 +1,64 @@
+@charset "Shift-JIS";
+
+/* ---------------------------------------*/
+/* Global */
+/* ---------------------------------------*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	color: #404040;
+	font-family:'ÉÅÉCÉäÉI',Meiryo,'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro',Verdana,'ÇlÇr ÇoÉSÉVÉbÉN',sans-serif;
+	font-size: 12px;
+	line-height: 1.8;
+	background: #fff;
+	text-align: center;
+}
+
+* html body{ /* under IE6 */
+	font-size: 75%;
+}
+
+*:first-child+html body{ /* IE7 */
+	font-size: 75%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-size: 100%;
+}
+
+strong,
+strong a,
+strong font,
+strong span{
+	font-weight: bold;
+}
+
+img,object{
+	border: 0;
+	vertical-align: bottom;
+}
+
+a:link{color: #0000ff;text-decoration:underline;}
+a:visited{color: #ff0000;text-decoration:underline;}
+a:hover{color: #0000ff;text-decoration:none;}
+a:active{color: #0000ff;text-decoration:none;}
+
+
+
+#wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding: 0;
+}
